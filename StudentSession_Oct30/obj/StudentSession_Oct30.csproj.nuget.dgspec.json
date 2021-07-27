@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/glestrade/Projects/StudentSession_Oct30/StudentSession_Oct30/StudentSession_Oct30.csproj": {}
+  },
+  "projects": {
+    "/Users/glestrade/Projects/StudentSession_Oct30/StudentSession_Oct30/StudentSession_Oct30.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/glestrade/Projects/StudentSession_Oct30/StudentSession_Oct30/StudentSession_Oct30.csproj",
+        "projectName": "StudentSession_Oct30",
+        "projectPath": "/Users/glestrade/Projects/StudentSession_Oct30/StudentSession_Oct30/StudentSession_Oct30.csproj",
+        "packagesPath": "/Users/glestrade/.nuget/packages/",
+        "outputPath": "/Users/glestrade/Projects/StudentSession_Oct30/StudentSession_Oct30/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/glestrade/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

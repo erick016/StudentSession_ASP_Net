@@ -1,0 +1,322 @@
+﻿<Properties StartupConfiguration="{C2C8C54A-64A2-4C60-BF4C-C94325E58FEA}|Default">
+  <MonoDevelop.Ide.ItemProperties.StudentSession__Oct30 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentSession_Oct30/Views/Group/Course.cshtml">
+    <Files>
+      <File FileName="StudentSession_Oct30/Views/Student/Index.cshtml" Line="12" Column="1" />
+      <File FileName="StudentSession_Oct30/Views/Student/Index.cshtml.cs" />
+      <File FileName="StudentSession_Oct30/Views/Shared/NewEntry.cshtml" />
+      <File FileName="StudentSession_Oct30/Views/Shared/StudentTable.cshtml" />
+      <File FileName="StudentSession_Oct30/Views/Instructor/InstructorMenu.cshtml" />
+      <File FileName="StudentSession_Oct30/Views/Instructor/Index.cshtml.cs" />
+      <File FileName="StudentSession_Oct30/Views/Instructor/Index.cshtml" />
+      <File FileName="StudentSession_Oct30/Views/Admin/Index.cshtml" />
+      <File FileName="StudentSession_Oct30/Views/Group/Index.cshtml" />
+      <File FileName="StudentSession_Oct30/wwwroot/javascript/clickButton.js" />
+      <File FileName="StudentSession_Oct30/Models/QueryList.cs" />
+      <File FileName="StudentSession_Oct30/Models/Group.cs" />
+      <File FileName="StudentSession_Oct30/Models/Professor.cs" />
+      <File FileName="StudentSession_Oct30/Models/Student.cs" />
+      <File FileName="StudentSession_Oct30/Controllers/AdminController.cs" />
+      <File FileName="StudentSession_Oct30/Controllers/GroupController.cs" />
+      <File FileName="StudentSession_Oct30/Models/Course.cs" />
+      <File FileName="StudentSession_Oct30/Controllers/HomeController.cs" />
+      <File FileName="StudentSession_Oct30/Program.cs" />
+      <File FileName="StudentSession_Oct30/Startup.cs" />
+      <File FileName="StudentSession_Oct30/Views/Group/Course.cshtml" Line="96" Column="2" />
+      <File FileName="StudentSession_Oct30/Controllers/InstructorController.cs" />
+      <File FileName="StudentSession_Oct30/Controllers/ProfessorController.cs" />
+      <File FileName="StudentSession_Oct30/Controllers/StudentController.cs" />
+      <File FileName="StudentSession_Oct30/Models/ApplicationUser.cs" />
+      <File FileName="StudentSession_Oct30/Models/ErrorViewModel.cs" />
+      <File FileName="StudentSession_Oct30/Views/Group/Instructor.cshtml" />
+      <File FileName="StudentSession_Oct30/Properties/launchSettings.json" />
+      <File FileName="StudentSession_Oct30/Views/Admin/Index.cshtml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudentSession_Oct30" expanded="True">
+            <Node name="StudentSession_Oct30" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="Microsoft.EntityFrameworkCore" expanded="True">
+                    <Node name="Microsoft.Extensions.Caching.Memory" expanded="True">
+                      <Node name="Microsoft.Extensions.Caching.Abstractions" expanded="True">
+                        <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                      </Node>
+                      <Node name="Microsoft.Extensions.Options" expanded="True">
+                        <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                      </Node>
+                    </Node>
+                    <Node name="Microsoft.Extensions.DependencyInjection" expanded="True" />
+                    <Node name="Microsoft.Extensions.Logging" expanded="True">
+                      <Node name="Microsoft.Extensions.Configuration.Binder" expanded="True">
+                        <Node name="Microsoft.Extensions.Configuration" expanded="True">
+                          <Node name="Microsoft.Extensions.Configuration.Abstractions" expanded="True">
+                            <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                          </Node>
+                        </Node>
+                      </Node>
+                      <Node name="Microsoft.Extensions.Options" expanded="True">
+                        <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                      </Node>
+                    </Node>
+                    <Node name="Remotion.Linq" expanded="True">
+                      <Node name="System.Collections" expanded="True">
+                        <Node name="System.Runtime" expanded="True" />
+                      </Node>
+                      <Node name="System.Diagnostics.Debug" expanded="True">
+                        <Node name="System.Runtime" expanded="True" />
+                      </Node>
+                      <Node name="System.Linq" expanded="True">
+                        <Node name="System.Collections" expanded="True">
+                          <Node name="System.Runtime" expanded="True" />
+                        </Node>
+                        <Node name="System.Diagnostics.Debug" expanded="True">
+                          <Node name="System.Runtime" expanded="True" />
+                        </Node>
+                        <Node name="System.Resources.ResourceManager" expanded="True">
+                          <Node name="System.Globalization" expanded="True">
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                          <Node name="System.Reflection" expanded="True">
+                            <Node name="System.IO" expanded="True">
+                              <Node name="System.Runtime" expanded="True" />
+                              <Node name="System.Text.Encoding" expanded="True">
+                                <Node name="System.Runtime" expanded="True" />
+                              </Node>
+                              <Node name="System.Threading.Tasks" expanded="True">
+                                <Node name="System.Runtime" expanded="True" />
+                              </Node>
+                            </Node>
+                            <Node name="System.Reflection.Primitives" expanded="True">
+                              <Node name="System.Runtime" expanded="True" />
+                            </Node>
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                          <Node name="System.Runtime" expanded="True" />
+                        </Node>
+                      </Node>
+                    </Node>
+                  </Node>
+                  <Node name="Microsoft.EntityFrameworkCore.Relational" expanded="True">
+                    <Node name="Microsoft.EntityFrameworkCore" expanded="True">
+                      <Node name="Microsoft.Extensions.Caching.Memory" expanded="True">
+                        <Node name="Microsoft.Extensions.Caching.Abstractions" expanded="True">
+                          <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                        </Node>
+                        <Node name="Microsoft.Extensions.Options" expanded="True">
+                          <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                        </Node>
+                      </Node>
+                      <Node name="Microsoft.Extensions.DependencyInjection" expanded="True" />
+                      <Node name="Microsoft.Extensions.Logging" expanded="True">
+                        <Node name="Microsoft.Extensions.Configuration.Binder" expanded="True">
+                          <Node name="Microsoft.Extensions.Configuration" expanded="True">
+                            <Node name="Microsoft.Extensions.Configuration.Abstractions" expanded="True">
+                              <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                            </Node>
+                          </Node>
+                        </Node>
+                        <Node name="Microsoft.Extensions.Options" expanded="True">
+                          <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                        </Node>
+                      </Node>
+                      <Node name="Remotion.Linq" expanded="True">
+                        <Node name="System.Collections" expanded="True">
+                          <Node name="System.Runtime" expanded="True" />
+                        </Node>
+                        <Node name="System.Diagnostics.Debug" expanded="True">
+                          <Node name="System.Runtime" expanded="True" />
+                        </Node>
+                        <Node name="System.Linq" expanded="True">
+                          <Node name="System.Collections" expanded="True">
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                          <Node name="System.Diagnostics.Debug" expanded="True">
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                          <Node name="System.Resources.ResourceManager" expanded="True">
+                            <Node name="System.Globalization" expanded="True">
+                              <Node name="System.Runtime" expanded="True" />
+                            </Node>
+                            <Node name="System.Reflection" expanded="True">
+                              <Node name="System.IO" expanded="True">
+                                <Node name="System.Runtime" expanded="True" />
+                                <Node name="System.Text.Encoding" expanded="True">
+                                  <Node name="System.Runtime" expanded="True" />
+                                </Node>
+                                <Node name="System.Threading.Tasks" expanded="True">
+                                  <Node name="System.Runtime" expanded="True" />
+                                </Node>
+                              </Node>
+                              <Node name="System.Reflection.Primitives" expanded="True">
+                                <Node name="System.Runtime" expanded="True" />
+                              </Node>
+                              <Node name="System.Runtime" expanded="True" />
+                            </Node>
+                          </Node>
+                        </Node>
+                      </Node>
+                    </Node>
+                  </Node>
+                  <Node name="MySql.Data" expanded="True">
+                    <Node name="BouncyCastle.NetCore" expanded="True">
+                      <Node name="NETStandard.Library" expanded="True" />
+                      <Node name="System.Reflection" expanded="True">
+                        <Node name="System.IO" expanded="True">
+                          <Node name="System.Runtime" expanded="True" />
+                          <Node name="System.Text.Encoding" expanded="True">
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                          <Node name="System.Threading.Tasks" expanded="True">
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                        </Node>
+                        <Node name="System.Reflection.Primitives" expanded="True">
+                          <Node name="System.Runtime" expanded="True" />
+                        </Node>
+                        <Node name="System.Runtime" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                  <Node name="MySql.Data.EntityFrameworkCore" expanded="True">
+                    <Node name="Microsoft.EntityFrameworkCore.Relational" expanded="True">
+                      <Node name="Microsoft.EntityFrameworkCore" expanded="True">
+                        <Node name="Microsoft.Extensions.Caching.Memory" expanded="True">
+                          <Node name="Microsoft.Extensions.Caching.Abstractions" expanded="True">
+                            <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                          </Node>
+                          <Node name="Microsoft.Extensions.Options" expanded="True">
+                            <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                          </Node>
+                        </Node>
+                        <Node name="Microsoft.Extensions.DependencyInjection" expanded="True" />
+                        <Node name="Microsoft.Extensions.Logging" expanded="True">
+                          <Node name="Microsoft.Extensions.Configuration.Binder" expanded="True">
+                            <Node name="Microsoft.Extensions.Configuration" expanded="True">
+                              <Node name="Microsoft.Extensions.Configuration.Abstractions" expanded="True" />
+                            </Node>
+                          </Node>
+                          <Node name="Microsoft.Extensions.Options" expanded="True">
+                            <Node name="Microsoft.Extensions.Primitives" expanded="True" />
+                          </Node>
+                        </Node>
+                        <Node name="Remotion.Linq" expanded="True">
+                          <Node name="System.Collections" expanded="True">
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                          <Node name="System.Diagnostics.Debug" expanded="True">
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                          <Node name="System.Linq" expanded="True">
+                            <Node name="System.Collections" expanded="True">
+                              <Node name="System.Runtime" expanded="True" />
+                            </Node>
+                            <Node name="System.Diagnostics.Debug" expanded="True">
+                              <Node name="System.Runtime" expanded="True" />
+                            </Node>
+                            <Node name="System.Resources.ResourceManager" expanded="True">
+                              <Node name="System.Globalization" expanded="True">
+                                <Node name="System.Runtime" expanded="True" />
+                              </Node>
+                              <Node name="System.Reflection" expanded="True">
+                                <Node name="System.IO" expanded="True" />
+                                <Node name="System.Reflection.Primitives" expanded="True" />
+                                <Node name="System.Runtime" expanded="True" />
+                              </Node>
+                              <Node name="System.Runtime" expanded="True" />
+                            </Node>
+                            <Node name="System.Runtime" expanded="True" />
+                            <Node name="System.Runtime.Extensions" expanded="True" />
+                          </Node>
+                          <Node name="System.Linq.Expressions" expanded="True" />
+                          <Node name="System.Linq.Queryable" expanded="True" />
+                          <Node name="System.ObjectModel" expanded="True" />
+                          <Node name="System.Reflection" expanded="True" />
+                          <Node name="System.Reflection.Extensions" expanded="True" />
+                          <Node name="System.Runtime" expanded="True" />
+                          <Node name="System.Runtime.Extensions" expanded="True" />
+                          <Node name="System.Threading" expanded="True" />
+                        </Node>
+                      </Node>
+                    </Node>
+                    <Node name="MySql.Data" expanded="True">
+                      <Node name="BouncyCastle.NetCore" expanded="True">
+                        <Node name="NETStandard.Library" expanded="True" />
+                        <Node name="System.Reflection" expanded="True">
+                          <Node name="System.IO" expanded="True">
+                            <Node name="System.Runtime" expanded="True" />
+                            <Node name="System.Text.Encoding" expanded="True">
+                              <Node name="System.Runtime" expanded="True" />
+                            </Node>
+                            <Node name="System.Threading.Tasks" expanded="True">
+                              <Node name="System.Runtime" expanded="True" />
+                            </Node>
+                          </Node>
+                          <Node name="System.Reflection.Primitives" expanded="True">
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                          <Node name="System.Runtime" expanded="True" />
+                        </Node>
+                        <Node name="System.Reflection.TypeExtensions" expanded="True">
+                          <Node name="System.Reflection" expanded="True" selected="True">
+                            <Node name="System.IO" expanded="True">
+                              <Node name="System.Runtime" expanded="True" />
+                              <Node name="System.Text.Encoding" expanded="True">
+                                <Node name="System.Runtime" expanded="True" />
+                              </Node>
+                              <Node name="System.Threading.Tasks" expanded="True">
+                                <Node name="System.Runtime" expanded="True" />
+                              </Node>
+                            </Node>
+                            <Node name="System.Reflection.Primitives" expanded="True">
+                              <Node name="System.Runtime" expanded="True" />
+                            </Node>
+                            <Node name="System.Runtime" expanded="True" />
+                          </Node>
+                        </Node>
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="SdkDependencies" expanded="True">
+                  <Node name="Microsoft.NETCore.App" expanded="True">
+                    <Node name="Microsoft.NETCore.DotNetHostPolicy" expanded="True">
+                      <Node name="Microsoft.NETCore.DotNetHostResolver" expanded="True" />
+                    </Node>
+                    <Node name="NETStandard.Library" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
+                <Node name="Group" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Instructor" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Student" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="img" expanded="True" />
+                <Node name="javascript" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

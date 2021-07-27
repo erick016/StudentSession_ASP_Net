@@ -1,0 +1,304 @@
+﻿@page
+@model SDBModel
+@{
+}
+<head>
+
+    <title>StudentSession</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <style type="text/css">
+        input, select, textarea {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            height: 30px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+
+<!--
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"> -->
+
+<nav class="navbar navbar-default ">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">StudentSession</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../../">Home</a></li>
+
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class=" text-center" >
+ <h1> <a href="">Student Dashboard</a></h1> 
+ 
+</div>
+
+<div class="container"> 
+  <h5>  <a href="">&nbsp; &nbsp; Student  /</a>Dashboard</h5>                 
+<div class="col-lg-offset-3  col-lg-6 " >
+
+
+ 
+
+    <div style="padding: 10px; margin-top: 20px ;">
+     <div class="text-center">
+            <div  style="background: azure; padding: 10px; border: 2px solid #b8dede; ">
+              <h4><strong>Student ID :</strong></h4>
+               <h4><strong>Student Name :</strong></h4>
+                <h4><strong>Student Year. :</strong></h4> 
+                <h4><strong>Student Major. :</strong></h4> 
+                <h4><strong>Student Instructor. :</strong></h4> 
+            
+              
+          </div>
+      </div>
+    </div>
+ 
+</div>
+</div>
+
+<div class="container"> 
+<div class="row">
+  <div class="col-md-3  " style="    padding: 25px;
+    border: 1px solid;">
+    <h5>Check Course Information by Course</h5>
+      <form  method="get" action="">
+                     
+                     <select name="id" required="">
+                     <option value=""> ---Select Course------</option>   
+
+    
+                     <option  value=""> </option>
+
+                  </select>
+                    <br>
+                    <br>
+                        <input type="hidden" name="StuID" value=""> 
+                  <input type="submit">
+       </form>
+  </div>
+  <div class="col-md-3  " style="    padding: 25px;
+    border: 1px solid;"> 
+   <h5>Check Course Information by Instructor</h5>
+    <form  method="get" action="">
+                     
+          <select name="ProfID">
+             <option> ---Select Instructor------</option>   
+
+
+             <option  value=""> </option>
+
+          </select>
+              <input type="hidden" name="StuID" value=""> 
+            <br>
+              <br>
+        <input type="submit">
+      </form>
+  </div>
+
+  <div class="col-md-3 " style="    padding: 25px;
+    border: 1px solid;">
+    <h5>Check Course Information by Start Date</h5>
+    <form  method="get" action="">
+                     
+    <input type="Date" name="date">
+                    <br>
+                    <br>
+                     <input type="hidden" name="StuID" value="">
+                  <input type="submit">
+                  </form>
+  </div>
+  <div class="col-md-3"   style="    padding: 25px;
+    border: 1px solid;">
+    <h5>Check Course Information by Dept Name </h5>
+                <form  method="get" action="">
+                           
+                <select name="Deptname">
+                           <option> ---Select Deptname------</option>   
+                           <option>Biology</option>
+                           <option>Music</option>
+                           <option>Economics</option>
+                           <option>Nursing</option>
+                           <option>Business</option>
+                           <option>Computer Science</option>
+                           <option>Physics</option>
+                           <option>Mathematics</option>
+                            
+                            </select>
+                                <input type="hidden" name="StuID" value=""> 
+                          <br>
+                          <br>
+                        <input type="submit">
+                        </form>
+  </div>
+
+  <div class="col-md-3"   style="    padding: 25px;
+    border: 1px solid;">
+    <h5>Check Course  Attendance By Course Id </h5>
+                <form  method="get" action="">
+                    <select name="CRN">
+                      <option> ---Select Course------</option> 
+
+
+                                
+                        <option value=""> </option>
+
+
+                      </select> 
+                      <input type="hidden" name="StuID" value="">        
+                    <br>
+                    <br>
+                  <input type="submit">
+                  </form>
+  </div>
+
+  <div class="col-md-3"   style="    padding: 25px;
+    border: 1px solid;">
+    <h5>Check Course  Attendance  By Instructor Id</h5>
+                <form  method="get" action="">
+                    <select name="ProfID">
+                      <option> ---Select Instructor------</option> 
+
+
+                                
+                        <option value=""> </option>
+
+
+                      </select>  
+                      <input type="hidden" name="StuID" value="">       
+                    <br>
+                    <br>
+                  <input type="submit">
+                  </form>
+  </div>
+
+    <div class="col-md-3"   style="    padding: 25px;
+    border: 1px solid;">
+    <h5>Check Course  Attendance  By Time Period</h5>
+                <form  method="get" action="">
+                    <input type="date" name="startdate">
+                    <input type="date" name="enddate">
+                      <input type="hidden" name="StuID" value="">       
+                    <br>
+                    <br>
+                  <input type="submit">
+                  </form>
+  </div>
+   </div>
+</div>
+
+<div class="container">
+  <center> <h3> All  Enrolled Session   </h3></center>
+  <div class="row">
+
+   <div class="col-lg-offset-2  col-lg-8 " >
+    <table class="table  full-width" style="border: 1px solid;">
+      <thead>
+        <th> No . </th>
+         <th> Session ID.</th>
+        <th> Course Name.</th>
+        <th> Session Location </th>
+        <th> Session Date </th>
+        <th> Session Time </th>
+        <th> Attandance </th>
+       
+       
+      </thead>
+      <tbody>
+      
+
+
+        <tr>
+           <td></td>
+              <td></td>
+             <td></td>
+
+              <td></td>
+              <td></td>
+              <td></td>
+             
+         
+          <td>
+          <br> 
+           </td>
+        
+        </tr>
+
+       
+      </tbody>
+    </table>
+  </div>
+
+ 
+          
+  </div>
+</div>
+
+
+
+<div class="container">
+  <center> <h3> All  Enrolled Course </h3></center>
+  <div class="row">
+
+   <div class="col-lg-offset-2  col-lg-8 " >
+    <table class="table  full-width" style="border: 1px solid;">
+      <thead>
+        <th>No.</th>
+        <th> CRN.</th>
+        <th> Course Name </th>
+        <th> Start Date </th>
+        <th> End Date </th>
+        <th> Action </th>
+       
+      </thead>
+      <tbody>
+      
+
+
+        <tr>
+         <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          
+            <td>   <a href="">View</a>
+       
+          <br> 
+           </td>
+        
+        </tr>
+
+       
+      </tbody>
+    </table>
+  </div>
+
+ 
+          
+  </div>
+</div>
+

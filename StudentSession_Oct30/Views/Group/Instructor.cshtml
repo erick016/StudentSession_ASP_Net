@@ -1,0 +1,80 @@
+﻿@model StudentSession_Oct12.Models.Group
+
+
+@if (Model.instOnDB == null && !Model.error)
+{
+    <script type="text/javascript">    alert("Successfully Changed DB.");</script>
+    <a href="./Instructor">Go Back to Instructor List</a>
+}
+
+@if (Model.error && Model.instOnDB == null)
+{
+    <script type="text/javascript">    alert("Bad input. Did not change DB.");</script>
+    <a href="./Instructor">Go Back to Instructor List</a>
+}
+
+@if (Model.instOnDB !=null)
+{
+
+    <a href="../admin">Go Back to Admin Root Page.</a>
+
+
+    <form method="post" asp - controller="Group" asp - action="CreateInstructor">
+
+
+
+    <div class="input-group">
+    <div>
+    <label>InstName</label>
+    <input asp-for="InstrName" type="text" name="instrname" class="form-control" />
+    </div>
+    <div>
+    <label>DeptName</label>
+    <input asp-for="DeptName" type="text" name="deptname" class="form-control">
+    </div>
+    <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+    </form>
+
+    <table class="table table-bordered table-responsive table-hover">
+    <tr>
+    <th>Instructor ID</th>
+    <th>Name</th>
+    <th>Department Name</th>
+    </tr>
+
+
+    @foreach (Professor p in Model.instOnDB)
+    {
+
+        <tr>
+        <td>@p.InstructorId</td>
+        <td>@p.Name</td>
+        <td>@p.DeptName</td>
+        <td>
+        <form method="post" asp-controller="Group" asp-action="UpdateInstructor">
+        <div class="input-group-update">
+        <input asp-for="InstId" type="text" name="instid" class="form-control" value="@p.InstructorId.ToString()" hidden />
+        <input asp-for="InstrName" type="text" name="instrname" class="form-control" value="@p.Name.ToString()" />
+        <input asp-for="DeptName" type="text" name="deptname" class="form-control" value="@p.DeptName.ToString()" />
+        <input type="submit" value="Update" class="btn btn-primary" />
+
+
+
+        </div>
+        </form>
+        </td>
+        <td>
+        <form method="post" asp-controller="Group" asp-action="DeleteInstructor">
+        <div class="input-group">
+        <input asp-for="InstId" type="text" name="instid" class="form-control" value="@p.InstructorId.ToString()" hidden />
+        <input type="submit" value="Delete" class="btn btn-primary" />
+        </div>
+        </form>
+        </td>
+
+
+        </tr>
+    }
+    </table>
+}

@@ -1,0 +1,80 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@*later for cache busting*@
+
+@{
+    ViewData["Title"] = "Home Page";
+    var imagePath = @"/img/admin.png";
+}
+<head>
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <title>Student Session</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .imageHeight {
+            height: 270px;
+        }
+
+        .card-text {
+            min-height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center  mt-4">
+            <div class="row justify-content-md-center text-center">
+                <div><h2>Welcome to Student Session System</h2></div>
+            </div>
+            <div class="row mt-4">
+                <div class="col col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/student.png" class="card-img-top imageHeight" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Student System</h5>
+                            <p class="card-text">Chooose your student identity, check your personal information and your course session/attendence.</p>
+                            <a href="./student" class="btn btn-primary">I'm a student</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/professor.png" class="card-img-top imageHeight" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Instructor System</h5>
+                            <p class="card-text">Chooose your instructor identity, check your courses, students and course sessions.</p>
+                            <a href="./Instructor" class="btn btn-primary">I'm an instructor</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src=@imagePath class="card-img-top imageHeight" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Administrator System</h5>
+                            <p class="card-text">Edit and check Student/Instructor/Course information.</p>
+                            <a href="./admin" class="btn btn-primary">I'm an administrator</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+@*
+        from HomeController
+
+    @foreach (StudentModel s in Model)
+        {
+            <tr>
+                <td>@s.Student_id</td>
+                <td>@s.FirstName</td>
+                <td>@s.LastName</td>
+                <td>@s.Year</td>
+                <td>@s.Major</td>
+                <td>@s.Instructor_id</td>
+            </tr>
+        }*@

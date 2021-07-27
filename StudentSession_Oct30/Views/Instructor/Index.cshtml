@@ -1,0 +1,48 @@
+﻿@page
+@model InstIndexModel
+@{
+}
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Student Session</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Instructor Identity</li>
+            </ol>
+        </nav>
+        <div class="row justify-content-md-center text-center"></div>
+        <div class="row justify-content-md-center text-center mt-4">
+            <form action="Instructor/instructorMenu" method="get">
+
+                <div class="form-group">
+                    <label for="instructorId">InstructorID</label>
+                    <input type="email" class="form-control" id="instructorId" aria-describedby="instructorId" placeholder="Enter ID">
+                    <small id="instructorId" class="form-text text-muted">You could either type your ID or select your identity following</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="instructorDepartment">Department</label>
+                    <input type="email" class="form-control" id="instructorDepartment" aria-describedby="instructorDepartment" placeholder="Chooose Department">
+                    <small id="departmentList" class="form-text text-muted">Optional, choose your department</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="instructorLbl">Select Instructor</label>
+                    <select class="form-control" name="instructor">
+
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Next</button>
+            </form>
+
+
+        </div>
+    </div>
+</body>

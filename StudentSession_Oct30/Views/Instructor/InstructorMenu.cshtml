@@ -1,0 +1,47 @@
+﻿@page
+@{
+}
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Student Session</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../">Home</a></li>
+                <li class="breadcrumb-item"><a href="../Instructor">Instructor Identity</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Instructor Menu</li>
+            </ol>
+        </nav>
+
+        <div class="row">
+            <div class="col-2">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">Courses</a>
+                    <a href="./instructorMenuOfStudent.php?instructor=<?php echo $instructor; ?>" class="list-group-item list-group-item-action">Students</a>
+                    <a href="./instructorMenuOfSession.php?instructor=<?php echo $instructor; ?>" class="list-group-item list-group-item-action">Course Session</a>
+                </div>
+            </div>
+            <div class="col-10">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Course</th>
+                            <th scope="col">Start Date</th>
+                            <th scope="col">End Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <!-- How to pass Instructor ID
+                <a href='studentslist.php?instructor=</?php echo $instructor?>'>Hello </a>
+                -->
+            </div>
+</body>
